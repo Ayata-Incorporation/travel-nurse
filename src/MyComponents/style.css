@@ -1,0 +1,930 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600&display=swap');
+
+@font-face {
+    font-family: Heaters;
+    src: url("D:\internship\public\fonts\Heaters.otf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header.scrolled {
+    position: fixed;
+    top: 0;
+    color: white;
+    background: url(D:\internship\public\img\background.png);
+    background-size: cover;
+    z-index: 260;
+}
+
+.header_details {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    align-items: center;
+}
+
+.menu_bar {
+    display: none;
+}
+
+.menu_bar .line {
+    width: 26px;
+    height: 3px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    background: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #274584;
+    transition: 0.3s;
+}
+
+.menu ul li .active {
+    color: #274584;
+}
+
+.background {
+    background: url(D:\internship\public\img\background.png);
+    height: 100vh;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.wave img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.totalbackgroundContent {
+    position: absolute;
+    width: 90%;
+    left: 3.47%;
+    top: 24.82%;
+    bottom: 82.3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.backgroundContent h1 {
+    font-family: Playfair Display;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+
+}
+
+.backgroundContent .box {
+    margin-top: 10px;
+    background: #F7EEBA;
+    transform: rotate(-4deg);
+    display: inline-block;
+    text-align: end;
+}
+
+.backgroundContent h3 {
+    font-family: Heaters;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-align: right;
+    color: #274584;
+    transform: rotate(4deg);
+}
+
+
+.backgroundContent h4 {
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 136%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.backgroundContent p {
+    margin-top: 10px;
+    padding: 2px 6px;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    background: #274584;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+
+.backgroundContent p i {
+    margin-left: 2px;
+    font-size: 10px;
+}
+
+.backgroundContent p:hover {
+    color: #274584;
+    background: white;
+    box-shadow: 0px 0px 5px 0px #274584;
+    transition: 0.3s;
+}
+
+.whyveridian {
+    margin-bottom: 10vh;
+}
+
+.veridian {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.veridianContent {
+    width: 54%;
+    z-index: 250;
+}
+
+.veridianContent h1 {
+    font-family: Poppins;
+    margin: 36px 0px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #274584;
+
+}
+
+.veridianContent p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000BF;
+    margin-bottom: 20px;
+}
+
+.applynow {
+    position: relative;
+    top: -20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: #F8F8F8;
+    padding: 10px 20px;
+}
+
+.applynow h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #274584;
+}
+
+.applynow p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    color: #FFFFFF;
+    background: #274584;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+.applynow p:hover {
+    background: #FFFFFF;
+    color: #274584;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px #274584;
+}
+
+.services {
+    width: 80%;
+    margin: auto;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+}
+
+.Title span {
+    margin-top: 10px;
+    background: #F7EEBA;
+    transform: rotate(-3deg);
+    display: inline-block;
+    box-shadow: 0px 3px 5px 0px black;
+}
+
+.Title h3 {
+    transform: rotate(3deg);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    padding: 0px 10px;
+    font-size: 30px;
+    color: #274584;
+    opacity: 0.9;
+
+}
+
+.servicesdetails {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left {
+    width: 59%;
+    padding: 20px;
+}
+
+.left h2 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.left h4 {
+    margin: 20px 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+ .left p {
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 2px 10px;
+    display: inline-block;
+    color: #274584;
+    border: 1px solid #274584;
+}
+
+.servicesdetails .left p:hover {
+    background: #274584;
+    color: white;
+    transition: 0.3s;
+}
+
+ .right {
+    width: 36%;
+}
+
+.right img {
+    width: 100%;
+    margin: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 30px 30px 5px 0px #E5E0DB;
+}
+
+.rightImg img {
+    margin: 0px;
+}
+
+.benifits {
+    margin: 60px 0px;
+    width: 100%;
+    padding: 50px 0px;
+    background: #C8DCDE;
+}
+
+.insideBenifits {
+    width: 80%;
+    margin: auto;
+}
+
+.insideBenifits .Title {
+    margin: 10px 0px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.benifitsdetails {
+    width: 24%;
+    margin: 40px auto;
+    border-right: 1px solid white;
+}
+
+.benifitsdetails:last-child {
+    border: none;
+}
+
+.insidebenifitsdetails {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.insidebenifitsdetails img {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.insidebenifitsdetails h4 {
+    margin: 10px 0px;
+    color: #274584;
+    font-family: Poppins;
+}
+
+.insidebenifitsdetails p {
+    margin-top: 16px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #565656;
+}
+
+.successstory {
+    margin: 80px 0px;
+}
+
+.bordertitle h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #274584;
+    text-align: center;
+}
+
+.bordertitle hr {
+    width: 200px;
+    margin: auto;
+}
+
+.successStoryContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.insidesuccessstory {
+    width: 44%;
+    margin: 30px 0px;
+}
+
+.insidesuccessstory p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #000000BF;
+    ;
+}
+
+.img_nurse {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img_nurse img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img_nurse h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+    margin-left: 10px;
+}
+
+.knowusbetter {
+    width: 66%;
+    margin: auto;
+}
+
+.knowusbettervideo {
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.knowusbettervideo iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+.InsideContainer {
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.destinationimage {
+    display: none;
+}
+
+.InsideContainerImageContainer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: baseline;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.InsideContainerImage {
+    width: 24%;
+    height: 400px;
+    margin: 0 1%;
+    animation: slide 3s infinite;
+    padding: 0px;
+    background: black;
+    overflow: hidden;
+}
+
+.InsideContainerImage p {
+    position: absolute;
+    bottom: 0;
+    margin: 40px 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: white;
+}
+
+.InsideContainerImage p i {
+    margin-right: 6px;
+}
+
+.InsideContainerImage h5 {
+    position: absolute;
+    bottom: 0;
+    margin: 18px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: white;
+}
+
+.InsideContainerImage img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.InsideContainerImage img:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+.InsideContainerImageNext {
+    position: relative;
+    top: 0;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 3px 12px;
+    border-radius: 50%;
+    color: white;
+    background: #274584;
+
+}
+
+.contactus {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 60px auto;
+    font-family: Poppins;
+}
+
+.contactus form {
+    width: 50%;
+}
+
+.sendemail {
+    width: 80%;
+    background: #274584;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+.sendemail h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sendemail h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.sendemail input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+
+.sendemail textarea {
+    margin: 10px 0px;
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.sendemail button {
+    font-family: Poppins;
+    background: rgb(10, 18, 78);
+    padding: 4px 10px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.sendemail button:hover {
+    background: white;
+    color: #072157;
+    transition: 0.3s;
+}
+
+.aboutus {
+    width: 50%;
+    padding: 40px;
+}
+
+.travellnurse h4 {
+    margin: 60px 0px 20px 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.travellnurse p {
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 2px 10px;
+    display: inline-block;
+    color: #274584;
+    border: 1px solid #274584;
+}
+
+.travellnurse p:hover {
+    background: #274584;
+    color: white;
+    transition: 0.3s;
+}
+
+footer {
+    background: #C8DCDE;
+    height: 40vh;
+}
+
+.copyright {
+    padding: 3px 0px;
+    color: white;
+    background: #4365b0;
+    font-family: Poppins;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+    .sendemail {
+        width: 100%;
+    }
+
+    .header_details {
+        width: 90%;
+    }
+
+    .veridian {
+        width: 90%;
+    }
+
+    .applynow {
+        width: 90%;
+    }
+
+    .services {
+        width: 86%;
+    }
+
+    .insideBenifits {
+        width: 90%;
+    }
+
+    .benifitsdetails {
+        width: 48%;
+    }
+    .benifitsdetails:nth-child(2){
+        border-right: none;
+    }
+    .successStoryContent{
+        width: 90%;
+    }
+
+    .InsideContainerImage {
+        width: 33%;
+    }
+}
+
+@media (max-width:968px) {
+    
+
+    .display {
+        display: none;
+    }
+
+    .totalbackgroundContent {
+        margin-left: 5%;
+    }
+
+    .nurse {
+        display: none;
+    }
+
+
+    .veridianContent {
+        width: 100%;
+    }
+
+    .knowusbetter {
+        width: 76%;
+    }
+
+    .knowusbettervideo iframe {
+        height: 60vh;
+    }
+    .contactus{
+        width: 90%;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (max-width:768px) {
+    .menu_bar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menuSidebar {
+        width: 70%;
+        height: 100vh;
+        position: fixed;
+        color: white;
+        background: #274584;
+        top: 0;
+        right: 0;
+        z-index: 300;
+        padding: 20px;
+    }
+
+    .menuSidebar i {
+        font-size: 22px;
+        position: absolute;
+        right: 0;
+        margin: 0px 20px;
+    }
+    .Sidebarmenu ul{
+        margin-top: 20px;
+    }
+    .Sidebarmenu ul li {
+        list-style: none;
+        font-size: 16px;
+        font-family: Poppins;
+        font-weight: 600px;
+        cursor: pointer;
+        padding: 4px 20px;
+    }
+    .Sidebarmenu .active {
+        color: #274584;
+        background: white;
+        width: 100%;
+        padding: 4px 20px;
+        transition: 0.1s;
+    }
+    .InsideContainer {
+        display: none;
+    }
+    .servicesdetails {
+        margin-top: 50px;
+    }
+    .left{
+        width: 100%;
+    }
+    .left h2{
+        text-align: center;
+    }
+    .right{display: none;}
+
+    .totaldestinationimg {
+        width: 90%;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .destinationimage {
+        width: 48%;
+        margin: 1%;
+        height: 40vh;
+        display: block;
+        background: black;
+        overflow: hidden;
+    }
+
+    .destinationimage img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        opacity: 80%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .destinationimage img:hover {
+        transform: scale(1.1);
+        opacity: 100%;
+    }
+    .contactus form{
+        width: 90%;
+        margin: auto;
+    }
+     .aboutus{
+        width: 90%;
+        margin: auto;
+    }
+    .bordertitle h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .veridianContent h1 {
+        font-size: 24px;
+    
+    }
+    .left h2{
+        font-size: 18px;
+    }
+    .left h4{
+        font-size: 13px;
+    }
+    .benifitsdetails {
+        width: 96%;
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+    .insidesuccessstory {
+        width: 96%;
+        margin: 30px 0px;
+    }
+    .knowusbetter {
+        width: 90%;
+    }
+
+    .knowusbettervideo iframe {
+        height: 40vh;
+    }
+    .bordertitle h1{
+        font-size: 24px;
+    }
+    .destinationimage {
+        width: 100%;
+    }
+}
+@media (max-width:376px) {
+    .left h2{
+        font-size: 15px;
+    }
+    .left h4{
+        font-size: 11px;
+    }
+}

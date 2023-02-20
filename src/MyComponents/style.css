@@ -1,3 +1,4 @@
+/* google Fonts import  */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600&display=swap');
 
 @font-face {
@@ -10,7 +11,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/* CSS for header Components */
 .header {
     width: 100%;
     height: 60px;
@@ -84,7 +85,7 @@
 .menu ul li .active {
     color: #274584;
 }
-
+/* CSS for Home Components */
 .background {
     background: url(D:\internship\public\img\background.png);
     height: 100vh;
@@ -182,7 +183,7 @@
     box-shadow: 0px 0px 5px 0px #274584;
     transition: 0.3s;
 }
-
+/* CSS for whyveridian Components */
 .whyveridian {
     margin-bottom: 10vh;
 }
@@ -264,7 +265,7 @@
     cursor: pointer;
     box-shadow: 0px 0px 5px 0px #274584;
 }
-
+/* CSS for Services Components */
 .services {
     width: 80%;
     margin: auto;
@@ -294,6 +295,7 @@
     opacity: 0.9;
 
 }
+/* CSS for ServiceDetails Components */
 
 .servicesdetails {
     margin-top: 100px;
@@ -302,6 +304,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .left {
     width: 59%;
     padding: 20px;
@@ -326,7 +329,7 @@
     text-align: left;
 }
 
- .left p {
+.left p {
     cursor: pointer;
     font-family: Poppins;
     font-size: 12px;
@@ -346,7 +349,7 @@
     transition: 0.3s;
 }
 
- .right {
+.right {
     width: 36%;
 }
 
@@ -360,7 +363,7 @@
 .rightImg img {
     margin: 0px;
 }
-
+/* CSS for Benifits Components */
 .benifits {
     margin: 60px 0px;
     width: 100%;
@@ -382,6 +385,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/* CSS for BenifitsDetails Components */
 
 .benifitsdetails {
     width: 24%;
@@ -422,7 +426,7 @@
     text-align: center;
     color: #565656;
 }
-
+/* CSS for SucessStory Components  */
 .successstory {
     margin: 80px 0px;
 }
@@ -491,7 +495,7 @@
     color: black;
     margin-left: 10px;
 }
-
+/* CSS for KnowUsBetter Components  */
 .knowusbetter {
     width: 66%;
     margin: auto;
@@ -594,7 +598,7 @@
     background: #274584;
 
 }
-
+/* CSS for Contactus Components  */
 .contactus {
     display: flex;
     justify-content: space-between;
@@ -659,7 +663,7 @@
     color: #072157;
     transition: 0.3s;
 }
-
+/* CSS for Aboutus Components  */
 .aboutus {
     width: 50%;
     padding: 40px;
@@ -694,6 +698,7 @@
     color: white;
     transition: 0.3s;
 }
+/* CSS for Footer Components  */
 
 footer {
     background: #C8DCDE;
@@ -711,6 +716,7 @@ footer {
     justify-content: center;
 }
 
+/* Responsive Design CSS using media Queries */
 @media (max-width:1024px) {
     .sendemail {
         width: 100%;
@@ -739,10 +745,12 @@ footer {
     .benifitsdetails {
         width: 48%;
     }
-    .benifitsdetails:nth-child(2){
+
+    .benifitsdetails:nth-child(2) {
         border-right: none;
     }
-    .successStoryContent{
+
+    .successStoryContent {
         width: 90%;
     }
 
@@ -752,7 +760,7 @@ footer {
 }
 
 @media (max-width:968px) {
-    
+
 
     .display {
         display: none;
@@ -778,7 +786,8 @@ footer {
     .knowusbettervideo iframe {
         height: 60vh;
     }
-    .contactus{
+
+    .contactus {
         width: 90%;
         flex-wrap: wrap-reverse;
     }
@@ -811,9 +820,11 @@ footer {
         right: 0;
         margin: 0px 20px;
     }
-    .Sidebarmenu ul{
+
+    .Sidebarmenu ul {
         margin-top: 20px;
     }
+
     .Sidebarmenu ul li {
         list-style: none;
         font-size: 16px;
@@ -822,6 +833,7 @@ footer {
         cursor: pointer;
         padding: 4px 20px;
     }
+
     .Sidebarmenu .active {
         color: #274584;
         background: white;
@@ -829,19 +841,26 @@ footer {
         padding: 4px 20px;
         transition: 0.1s;
     }
+
     .InsideContainer {
         display: none;
     }
+
     .servicesdetails {
         margin-top: 50px;
     }
-    .left{
+
+    .left {
         width: 100%;
     }
-    .left h2{
+
+    .left h2 {
         text-align: center;
     }
-    .right{display: none;}
+
+    .right {
+        display: none;
+    }
 
     .totaldestinationimg {
         width: 90%;
@@ -872,15 +891,19 @@ footer {
         transform: scale(1.1);
         opacity: 100%;
     }
-    .contactus form{
+
+    .contactus form {
         width: 90%;
         margin: auto;
     }
-     .aboutus{
+
+    .aboutus {
         width: 90%;
         margin: auto;
+        padding: 20px;
     }
-    .bordertitle h1{
+
+    .bordertitle h1 {
         font-size: 30px;
     }
 }
@@ -888,24 +911,29 @@ footer {
 @media (max-width:576px) {
     .veridianContent h1 {
         font-size: 24px;
-    
+
     }
-    .left h2{
+
+    .left h2 {
         font-size: 18px;
     }
-    .left h4{
+
+    .left h4 {
         font-size: 13px;
     }
+
     .benifitsdetails {
         width: 96%;
         padding-bottom: 20px;
         border-right: none;
         border-bottom: 1px solid white;
     }
+
     .insidesuccessstory {
         width: 96%;
         margin: 30px 0px;
     }
+
     .knowusbetter {
         width: 90%;
     }
@@ -913,18 +941,30 @@ footer {
     .knowusbettervideo iframe {
         height: 40vh;
     }
-    .bordertitle h1{
+
+    .bordertitle h1 {
         font-size: 24px;
     }
+
     .destinationimage {
         width: 100%;
     }
 }
+
 @media (max-width:376px) {
-    .left h2{
+    .left h2 {
         font-size: 15px;
     }
-    .left h4{
+
+    .left h4 {
         font-size: 11px;
+    }
+
+    .Title h3 {
+        font-size: 24px;
+    }
+
+    .Sidebarmenu ul li {
+        font-size: 12px;
     }
 }

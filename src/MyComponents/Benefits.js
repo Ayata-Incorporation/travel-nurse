@@ -11,12 +11,12 @@ export default function Benefits() {
             <h3>Benifits</h3>
           </span>
     </div>
-    <section className='features'>
-    <BenifitsDetails img={"img/img1.png"} topic={"Experienced team"}/>
-    <BenifitsDetails img={"img/img2.png"} topic={"High-quality solutions"}/>
-    <BenifitsDetails img={"img/img3.png"} topic={"Customer satisfaction"}/>
-    <BenifitsDetails img={"img/img4.png"} topic={"Flexibility"}/>
-    </section>
+          <section className='features'>
+          <BenifitsDetails img={"img/img1.png"} topic={"Experienced team"}/>
+          <BenifitsDetails img={"img/img2.png"} topic={"High-quality solutions"}/>
+          <BenifitsDetails img={"img/img3.png"} topic={"Customer satisfaction"}/>
+          <BenifitsDetails img={"img/img4.png"} topic={"Flexibility"}/>
+          </section>
         </div>
       </section>
       </div>

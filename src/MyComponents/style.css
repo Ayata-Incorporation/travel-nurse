@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: Heaters;
-    src: url("D:\internship\public\fonts\Heaters.otf");
+    src: url("../../public/fonts/Heaters.otf");
 }
 
 * {
@@ -25,7 +25,7 @@
     position: fixed;
     top: 0;
     color: white;
-    background: url(D:\internship\public\img\background.png);
+    background: url("../../public/img/background.png");
     background-size: cover;
     z-index: 260;
 }
@@ -87,7 +87,7 @@
 }
 /* CSS for Home Components */
 .background {
-    background: url(D:\internship\public\img\background.png);
+    background: url("../../public/img/background.png");
     height: 100vh;
     border: none;
     background-size: cover;

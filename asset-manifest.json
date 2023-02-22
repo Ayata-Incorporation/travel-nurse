@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/travel-nurse/static/css/main.92b0a1fd.css",
+    "main.js": "/travel-nurse/static/js/main.6aa9fb97.js",
+    "static/js/787.071ac33f.chunk.js": "/travel-nurse/static/js/787.071ac33f.chunk.js",
+    "static/media/Heaters.otf": "/travel-nurse/static/media/Heaters.f0da15fbed8a7f445f9a.otf",
+    "static/media/background.png": "/travel-nurse/static/media/background.4aefd3be0c29b5b3d941.png",
+    "index.html": "/travel-nurse/index.html",
+    "main.92b0a1fd.css.map": "/travel-nurse/static/css/main.92b0a1fd.css.map",
+    "main.6aa9fb97.js.map": "/travel-nurse/static/js/main.6aa9fb97.js.map",
+    "787.071ac33f.chunk.js.map": "/travel-nurse/static/js/787.071ac33f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92b0a1fd.css",
+    "static/js/main.6aa9fb97.js"
+  ]
+}
